@@ -1,0 +1,37 @@
+.location{
+    width: 100%;
+
+}
+.location h2{
+    color:black;
+    text-align: center;
+    width: 100%;
+}
+
+.location h3{
+    color: grey;
+    text-align: center;
+    width: 100%;
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    width: 50%;
+    padding-left:70px;
+}
+.mapa{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+.mapa iframe{
+    width: 340px;
+    height:340px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.5);
+}
