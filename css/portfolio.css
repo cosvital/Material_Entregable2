@@ -1,0 +1,46 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.efecto_medio_giro{
+    transition: 1s;
+}
+.efecto_medio_giro:hover{
+    transition: 1s;
+    transform: rotate(-45deg);
+}
+
+.efecto_ampliar{
+    transition: 1s;
+}
+.efecto_ampliar:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+.efecto_giro_entero{
+    transition: 2s;
+}
+.efecto_giro_entero:hover{
+    transition: 2s;
+    transform: rotate(180deg);
+    border-radius: 50%;
+}
+
+.efecto_mover_izq{
+    transition: 1s;
+}
+.efecto_mover_izq:hover{
+    transition: 1s;
+    transform:translateX(-100px);
+}
+
+.efecto_mover_der{
+    transition: 1s;
+}
+.efecto_mover_der:hover{
+    transition: 1s;
+    transform:translateX(100px);
+}
