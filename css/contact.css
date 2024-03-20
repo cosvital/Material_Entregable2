@@ -1,6 +1,7 @@
 
 .contact {
     background:rgba(80, 17, 122, 0.9) url('/img/map-image.png') no-repeat center;
+    opacity: 0.9;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -45,6 +46,7 @@ button {
 
 footer {
     background-color: #360458;
+    opacity: 0.9;
     padding: 5px 10px; 
     color: white;
     text-align: right;
