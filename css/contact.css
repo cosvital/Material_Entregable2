@@ -1,7 +1,6 @@
 
 .contact {
-    background:rgba(80, 17, 122, 0.9) url('/Material_Entregable2/img/map-image.png') no-repeat center;
-    opacity: 0.9;
+    background: rgba(80, 17, 122, 0.9) url('img/map-image.png') no-repeat center;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
